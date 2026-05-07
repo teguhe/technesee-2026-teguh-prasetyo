@@ -31,9 +31,9 @@ const Hero = () => {
 
         {/* Nama dan Judul Pekerjaan */}
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
-          Hi, I'm <span className="text-indigo-600">Fathir Al Faruq</span>
+          Hi, I'm <span className="text-indigo-600">Teguh Prasetyo</span>
         </h1>
-        {/* TODO: [Tugas Peserta] Ganti "Fathir Al Faruq" dengan nama aslimu! */}
+        {/* TODO: [Tugas Peserta] Ganti "Teguh Prasetyo" dengan nama aslimu! */}
 
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           I am a passionate Front-End Developer learning how to build modern web applications using React and Tailwind CSS.

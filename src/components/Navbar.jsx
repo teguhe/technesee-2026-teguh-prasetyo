@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Bagian Logo */}
           <div className="flex-shrink-0 flex items-center">
             {/* TODO: [Tugas Peserta] Ubah "MyPortfolio" menjadi namamu atau inisialmu */}
-            <span className="font-bold text-xl text-indigo-600">MyPortfolio</span>
+            <a href="#home" className="font-bold text-xl text-indigo-600">Teguh Prasetyo</a>
           </div>
 
           {/* Bagian Link Navigasi (Tersembunyi di layar kecil/HP dengan 'hidden', tampil di tablet ke atas dengan 'md:flex') */}

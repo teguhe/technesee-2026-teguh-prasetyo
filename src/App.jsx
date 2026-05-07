@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 // App adalah komponen utama (Parent Component) yang akan membungkus semua komponen lain (Child Components).
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Projects />
       </main>
 
-      {/* TODO: [Tugas Tambahan Peserta] Buat komponen Footer.jsx sederhana di dalam src/components/ dan tampilkan di bawah sini */}
+      <Footer />
     </>
   );
 }
