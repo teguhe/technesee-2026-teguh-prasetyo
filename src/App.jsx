@@ -3,6 +3,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 // App adalah komponen utama (Parent Component) yang akan membungkus semua komponen lain (Child Components).
@@ -21,6 +23,8 @@ function App() {
 
         {/* Menampilkan bagian Projects (Portofolio) */}
         <Projects />
+        <About />
+        <Contact />
       </main>
 
       <Footer />
