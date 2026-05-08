@@ -66,7 +66,9 @@ const Projects = () => {
                   {project.tech}
                 </div>
 
-                {/* TODO: [Tugas Peserta] Tambahkan tombol "View Project" di bawah badge teknologi ini */}
+                <div className="mt-4">
+                  <a href="#" className="inline-block bg-indigo-600 text-white text-sm px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors">View Project</a>
+                </div>
 
               </div>
             </div>

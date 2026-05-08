@@ -18,7 +18,7 @@ const Navbar = () => {
 
           {/* Bagian Logo */}
           <div className="flex-shrink-0 flex items-center">
-            {/* TODO: [Tugas Peserta] Ubah "MyPortfolio" menjadi namamu atau inisialmu */}
+
             <a href="#home" className="font-bold text-xl text-indigo-600">Teguh Prasetyo</a>
           </div>
 
@@ -28,7 +28,8 @@ const Navbar = () => {
             <a href="#home" className="text-gray-700 hover:text-indigo-600 transition-colors">Home</a>
             <a href="#projects" className="text-gray-700 hover:text-indigo-600 transition-colors">Projects</a>
 
-            {/* TODO: [Tugas Peserta] Tambahkan link baru, misalnya "Contact" atau "About" di bawah baris ini */}
+            <a href="#about" className="text-gray-700 hover:text-indigo-600 transition-colors">About</a>
+            <a href="#contact" className="text-gray-700 hover:text-indigo-600 transition-colors">Contact</a>
 
           </div>
         </div>
